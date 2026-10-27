@@ -1,0 +1,49 @@
+# ===== Java =====
+# Arquivos compilados e de build
+*.class
+bin/
+out/
+target/
+build/
+
+# Pacotes e logs gerados
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+replay_pid*
+
+# ===== IDEs e editores =====
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.factorypath
+
+# ===== Sistema operacional =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Segredos e variáveis de ambiente =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+secrets/
+credentials*
+
+# ===== Claude Code =====
+# Configurações, permissões e memória locais
+.claude/
+CLAUDE.local.md
+# Servidores MCP (pode conter tokens)
+.mcp.json
+# Descomente a linha abaixo se não quiser subir as instruções do projeto
+# CLAUDE.md
